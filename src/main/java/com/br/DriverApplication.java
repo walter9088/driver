@@ -11,7 +11,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @EnableAutoConfiguration
 @SpringBootApplication
-@MapperScan({"com.br.staff.dao.mapper","com.br.svn.dao.mapper"})
+@MapperScan({"com.br.staff.dao.mapper","com.br.svn.dao.mapper","com.br.driver.dao.mapper"})
 public class DriverApplication {
 
     public static void main(String[] args) throws Exception {
