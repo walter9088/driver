@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.RestController;
 /**
  * Created by walter on 17/9/30.
  */
-@RestController
+
 @Controller
 public class SvnController {
 
@@ -15,7 +15,9 @@ public class SvnController {
     @RequestMapping(value = "/api/test.html")
     public String test() {
 
-        return "hello world";
+        //return "hello world";
+
+        return "index";
     }
 
 }

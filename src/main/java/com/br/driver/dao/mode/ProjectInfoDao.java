@@ -15,11 +15,12 @@ public class ProjectInfoDao {
 
     private String test;
 
-    private String pr;
-
+    /**
+     * svn branch研发分支
+     */
     private String svn;
 
-
+    private String status;
 
     
 }
