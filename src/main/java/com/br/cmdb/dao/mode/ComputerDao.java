@@ -5,14 +5,34 @@ package com.br.cmdb.dao.mode;
  */
 public class ComputerDao {
 
+    /**
+     * id
+     */
     private int id;
+
+    /**
+     * ipd
+     */
     private String ip;
+
     private String hostname;
+
     private String cpu;
+
     private String os;
+
     private String memory;
+
     private String disk;
+
     private String net;
+
+    /**
+     * 机器运维管理初始化帐户密码
+     */
+    private String user;
+
+    private String passd;
 
     public int getId() {
         return id;
@@ -76,5 +96,21 @@ public class ComputerDao {
 
     public void setNet(String net) {
         this.net = net;
+    }
+
+    public String getUser() {
+        return user;
+    }
+
+    public void setUser(String user) {
+        this.user = user;
+    }
+
+    public String getPassd() {
+        return passd;
+    }
+
+    public void setPassd(String passd) {
+        this.passd = passd;
     }
 }
